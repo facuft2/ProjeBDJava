@@ -1,0 +1,11 @@
+package logica;
+
+public class manejadorPalabra extends palabra{
+	public void crearNuevaPalabra(palabra Palabra, String letra,String definicion,boolean empiezaPor){	
+ 	   
+ 	   
+ 	   
+    }
+	
+	
+}

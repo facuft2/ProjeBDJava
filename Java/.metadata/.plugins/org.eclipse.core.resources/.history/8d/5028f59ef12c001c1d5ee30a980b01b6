@@ -1,0 +1,12 @@
+package logica;
+
+public class jugador extends usuario{
+
+private String nickname;
+private int partidasJugadas;
+private int partidasGanadas;
+
+
+
+}
+

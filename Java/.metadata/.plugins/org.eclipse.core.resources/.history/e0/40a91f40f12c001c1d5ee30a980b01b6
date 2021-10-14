@@ -1,0 +1,22 @@
+package logica;
+
+public class partida {
+	
+	private jugador Jugador;
+	private palabra Palabras;
+	private int codigo;
+	private String nickname;
+	private boolean finalizada;
+	private int puntaje;
+	
+	public partida(jugador jugador, palabra palabras, int codigo, String nickname, boolean finalizada, int puntaje) {
+		super();
+		Jugador = jugador;
+		Palabras = palabras;
+		this.codigo = codigo;
+		this.nickname = nickname;
+		this.finalizada = finalizada;
+		this.puntaje = puntaje;
+	} 	
+
+}

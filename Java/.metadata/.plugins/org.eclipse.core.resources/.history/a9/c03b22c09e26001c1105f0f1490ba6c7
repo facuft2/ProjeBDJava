@@ -1,0 +1,25 @@
+package logica;
+
+public class manejadorPalabra extends palabra{
+	public void crearNuevaPalabra(palabra Palabra, String letra,String definicion,boolean empiezaPor){	
+ 	   
+ 	   
+ 	   
+    }
+    
+	public static void eliminarPalabra(int codigo) {
+		
+		
+	}
+	
+	public static ArrayList<Palabra> obtenerPalabra() {
+		
+		
+	}
+	
+	
+	public void obtenerPalabra(String Categoria, ArrayList<Palabras> ){
+		
+	}
+	
+}

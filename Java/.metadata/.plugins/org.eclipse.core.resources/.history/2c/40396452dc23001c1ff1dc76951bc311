@@ -1,0 +1,12 @@
+package logica;
+
+public class jugador {
+
+private String nickname;
+private int partidasJugadas;
+private int partidasGanadas;
+
+
+
+}
+

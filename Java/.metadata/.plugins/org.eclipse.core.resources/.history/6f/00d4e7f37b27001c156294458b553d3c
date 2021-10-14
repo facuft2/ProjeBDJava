@@ -1,0 +1,9 @@
+package logica;
+
+public class categoria {
+
+	private palabra Palabra;
+	private String nombre;
+	
+	
+}

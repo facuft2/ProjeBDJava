@@ -1,0 +1,8 @@
+package logica;
+
+public class manejadorPartida extends palabra,partida,usuario{
+	
+	public static nuevaPartida(String nickname, String pi)
+	
+
+}

@@ -1,0 +1,20 @@
+package logica;
+
+public class palabra {
+	
+	private categoria Categoria;
+	private char letra;
+	private String definicion;
+	private int codigo;
+	
+	private boolean empiezaPor;
+	
+	private boolean estadoUso;
+	
+	private int cantidadRespondida;
+	
+	private int cantidadRespondidaCorrectamente;
+	
+	 
+
+}

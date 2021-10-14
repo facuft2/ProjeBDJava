@@ -1,0 +1,12 @@
+package logica;
+
+public class partida {
+	
+	public jugador Jugador;
+	private palabra Palabra;
+	private int codigo;
+	private String nickname;
+	private boolean finalizada;
+	private int puntaje; 	
+
+}

@@ -1,0 +1,11 @@
+package logica;
+
+public class usuario {
+
+	private int ci;
+	private String nombre;
+	private String apellido;
+	private String mail;
+	private int pin;
+
+}
