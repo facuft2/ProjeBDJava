@@ -18,7 +18,10 @@ body {
   color: white;
   
 }
+.btnPasapalabra{
+  border: 1px solid pink
 
+}
 .neok {
   font-family: 'garamond', cursive;
   margin: 5;
@@ -42,58 +45,84 @@ body {
 }
 
 .puntuquis1 {
-  animation: parpadear 2s infinite backwards steps(1);
-  animation-delay: 0.3s;
+  animation: parpadear 1s infinite backwards steps(2);
+  animation-delay: 0.3ms;
 }
 .puntuquis2 {
-  animation: parpadear 2s infinite backwards steps(2);
-  animation-delay: 0.3s;
+  animation: parpadear 1.3s infinite backwards steps(3);
+  animation-delay: 0.3ms;
 }
 .puntuquis3 {
-  animation: parpadear 2s infinite backwards steps(3);
-  animation-delay: 0.3s;
+  animation: parpadear 1.6s infinite backwards steps(4);
+  animation-delay: 0.3ms;
 }
 .puntuquis4 {
-  animation: parpadear 2s infinite backwards steps(1);
-  animation-delay: 0.3s;
+  animation: parpadear 1.9s infinite backwards steps(5);
+  animation-delay: 0.3ms;
 }
 .puntuquis5 {
-  animation: parpadear 2s infinite backwards steps(2);
-  animation-delay: 0.3s;
+  animation: parpadear 2.2s infinite backwards steps(6);
+  animation-delay: 0.3ms;
 }
 .puntuquis6 {
-  animation: parpadear 2s infinite backwards steps(3);
-  animation-delay: 0.3s;
+  animation: parpadear 2.5s infinite backwards steps(7);
+  animation-delay: 0.3ms;
 }
 .puntuquis7 {
-  animation: parpadear 2s infinite backwards steps(1);
-  animation-delay: 0.3s;
+  animation: parpadear 2.8s infinite backwards steps(8);
+  animation-delay: 0.3ms;
 }
 .puntuquis8 {
-  animation: parpadear 2s infinite backwards steps(3);
-  animation-delay: 0.3s;
+  animation: parpadear 3.1s infinite backwards steps(9);
+  animation-delay: 0.3ms;
 }
 .puntuquis9 {
-  animation: parpadear 2s infinite backwards steps(3);
-  animation-delay: 0.3s;
+  animation: parpadear 3.4s infinite backwards steps(10);
+  animation-delay: 0.3ms;
+
 }
 .puntuquis10 {
-  animation: parpadear 2s infinite backwards steps(1);
- animation-delay: 0.3s;
+  animation: parpadear 3.7s infinite backwards steps(11);
+  animation-delay: 0.3ms;
 }
 .puntuquis11 {
-  animation: parpadear 2s infinite backwards steps(2);
-  animation-delay: 0.3s;
+  animation: parpadear 4s infinite backwards steps(12);
+  animation-delay: 0.3ms;
 }
 .puntuquis12 {
-  animation: parpadear 2s infinite backwards steps(3);
-  animation-delay: 0.3s;
+  animation: parpadear 4.3s infinite backwards steps(13);
+
+}
+.puntuquis13 {
+  animation: parpadear 4.6s infinite backwards steps(14);
+  animation-delay: 0.3ms;
+}
+.puntuquis14 {
+  animation: parpadear 4.9s infinite backwards steps(15);
+  animation-delay: 0.3ms;
+}
+.puntuquis15 {
+  animation: parpadear 5.2s infinite backwards steps(16);
+  animation-delay: 0.3ms;
+}
+.puntuquis16 {
+  animation: parpadear 5.5s infinite backwards steps(17);
+  animation-delay: 0.3ms;
+}
+.puntuquis17 {
+  animation: parpadear 5.8s infinite backwards steps(18);
+  animation-delay: 0.3ms;
+}
+.puntuquis18 {
+  animation: parpadear 6.1s infinite backwards steps(19);
+  animation-delay: 0.3ms;
 }
 
 @keyframes parpadear {
   to {
-    color: gray;
-    text-shadow: none;
+    opacity: 0;
+   
+
   }
 }
 
@@ -109,22 +138,16 @@ body {
 
 .game{
   visibility: hidden;
-
 }
 
 .hidden {
   display: none;
 
 }
-.btonLogin{
-visibility: visible;
-
-}
 
 .titulo {
-  text-align: center;
+  margin-left: 40%;
   position: absolute;
-  align-content: center;
   font-family: "Bebas Neue", cursive;
   font-size: 50px;
   letter-spacing: 4px;
@@ -356,15 +379,74 @@ visibility: visible;
   text-decoration: none;
   cursor: default;
 }
-.rosco .letra--success {
-  background-image: radial-gradient(#9ee379,#4caf50);
+.rosco .letra--approve {
+  background-image: radial-gradient(#4caf50,#000000);
+
 }
-.rosco .letra--failure {
-  background-image: radial-gradient(#b9121b,#8e001c);
+.rosco .letra--fail {
+  background-image: radial-gradient(#b9121b,#000000);
+
+}
+.rosco .letra--skip {
+  background-image: radial-gradient(#f0cd0b,#000000);
+
 }
 .achei{
-  position: relative;
-  height: 25%;
-  padding-top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:auto;
+  }
+
+.btnPasa{
+  min-width: 150px;
+  min-height:40px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: transparent;
+  letter-spacing: 4px;
+  background: linear-gradient(to right, #f990ff 0, #c49fff 25%, #cc00ff 50%, #9800d4 75%, #6800a5 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  border-image: linear-gradient(to right, #f990ff 0, #c49fff 25%, #cc00ff 50%, #9800d4 75%, #6800a5 100%) 1;
+  -webkit-transition: all .5s ease;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
 }
+.btnVer{
+  min-width: 150px;
+  min-height:40px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: transparent;
+  letter-spacing: 4px;
+  background: linear-gradient(to right, #f990ff 0, #c49fff 25%, #cc00ff 50%, #9800d4 75%, #6800a5 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  border-image: linear-gradient(to right, #f990ff 0, #c49fff 25%, #cc00ff 50%, #9800d4 75%, #6800a5 100%) 1;
+  -webkit-transition: all .5s ease;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+}
+.inpPala{
+  min-width: 150px;
+  min-height:40px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: transparent;
+  text-align: center;
+  letter-spacing: 4px;
+  background: linear-gradient(to right, #f990ff 0, #c49fff 25%, #cc00ff 50%, #9800d4 75%, #6800a5 100%);
+  -webkit-background-clip: text;
+  color:transparent;
+  border-image: linear-gradient(to right, #f990ff 0, #c49fff 25%, #cc00ff 50%, #9800d4 75%, #6800a5 100%) 1;
+  -webkit-transition: all .5s ease;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+}
+.inpPala::placeholder { 
+  text-align: center;
+  color:transparent;
+  border-image: linear-gradient(to right, #f990ff 0, #c49fff 25%, #cc00ff 50%, #9800d4 75%, #6800a5 100%);
+ }
 

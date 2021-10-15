@@ -1,9 +1,0 @@
-package logica;
-
-public class manejadorAdministrador extends palabra{
-       public class crearNuevaPalabra(palabra letra,definicion,empiezaPor){	
-    	   
-    	   
-    	   
-       }
-}

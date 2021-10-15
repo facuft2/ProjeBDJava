@@ -16,33 +16,41 @@
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,100&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
   </head>
   <body>
     <div id="container" class = "container">
       <p>
-      <span class=puntuquis7> ♦ ♦ ♦</span>
-      <span class=puntuquis8> ♦ ♦ ♦</span>
-      <span class=puntuquis9> ♦ ♦ ♦</span>
-      <span class=puntuquis10>♦ ♦ ♦</span>
-      <span class=puntuquis11>♦ ♦ ♦</span>
-      <span class=puntuquis12>♦ ♦ ♦</span>
+        <span class=puntuquis1>•</span>
+      <span class=puntuquis2>•</span>
+      <span class=puntuquis3>•</span>
+      <span class=puntuquis4>•</span>
+      <span class=puntuquis5>•</span>
+      <span class=puntuquis6>•</span>
+      <span class=puntuquis7>•</span>
+      <span class=puntuquis8>•</span>
+      <span class=puntuquis9>•</span>
+      <span class=puntuquis10>•</span>
+      <span class=puntuquis11>•</span>
+      <span class=puntuquis12>•</span>
+      <span class=puntuquis13>•</span>
+      <span class=puntuquis14>•</span>
+      <span class=puntuquis15>•</span>
+      <span class=puntuquis16>•</span>
+      <span class=puntuquis17>•</span>
+      <span class=puntuquis18>•</span>
     </p>
       <h1 class= "neok" >•.Welcome.• </h1> 
       <p class = "neok1" > Sale ese Rosco? </p>
       <p class= "neok2"> </p>
-      <span class=puntuquis1>♦ ♦ ♦</span>
-      <span class=puntuquis2>♦ ♦ ♦</span>
-      <span class=puntuquis3>♦ ♦ ♦</span>
-      <span class=puntuquis4>♦ ♦ ♦</span>
-      <span class=puntuquis5>♦ ♦ ♦</span>
-      <span class=puntuquis6>♦ ♦ ♦</span>
+      
     </p>
     <button id="btonLogin" class="btnLogin" onclick="logear()">Juga</button>
   </div>
     <section id="princi" class="game">
       <h1 class="titulo">Pasapalabra</h1>
         <div class="rosco-container">
-          <ul class="rosco">
+          <ul class="rosco" id="rosco">
             <li class="letra">A</li>
             <li class="letra">B</li>
             <li class="letra">C</li>
@@ -71,8 +79,9 @@
           </ul>
         </div>
         <div class="achei">
-          <button>Login</button>
-          
+          <button id="btnPasapalabra" class="btnPasa" onclick="c()">Pasapalabra</button>
+            <button id="btnEnviar" class="btnVer" onclick="e()">Verificar</button>
+            <input type="text" class="inpPala" placeholder="Respuesta" name="inpPala" id="inputEnviar">
         </div>
      </section>
     
