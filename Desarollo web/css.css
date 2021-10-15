@@ -45,76 +45,76 @@ body {
 }
 
 .puntuquis1 {
-  animation: parpadear 1s infinite backwards steps(2);
+  animation: parpadear 1s;
   animation-delay: 0.3ms;
 }
 .puntuquis2 {
-  animation: parpadear 1.3s infinite backwards steps(3);
+  animation: parpadear 1.3s;
   animation-delay: 0.3ms;
 }
 .puntuquis3 {
-  animation: parpadear 1.6s infinite backwards steps(4);
+  animation: parpadear 1.6s;
   animation-delay: 0.3ms;
 }
 .puntuquis4 {
-  animation: parpadear 1.9s infinite backwards steps(5);
+  animation: parpadear 1.9s ;
   animation-delay: 0.3ms;
 }
 .puntuquis5 {
-  animation: parpadear 2.2s infinite backwards steps(6);
+  animation: parpadear 2.2s;
   animation-delay: 0.3ms;
 }
 .puntuquis6 {
-  animation: parpadear 2.5s infinite backwards steps(7);
+  animation: parpadear 2.5s;
   animation-delay: 0.3ms;
 }
 .puntuquis7 {
-  animation: parpadear 2.8s infinite backwards steps(8);
+  animation: parpadear 2.8s;
   animation-delay: 0.3ms;
 }
 .puntuquis8 {
-  animation: parpadear 3.1s infinite backwards steps(9);
+  animation: parpadear 3.1s;
   animation-delay: 0.3ms;
 }
 .puntuquis9 {
-  animation: parpadear 3.4s infinite backwards steps(10);
+  animation: parpadear 3.4s;
   animation-delay: 0.3ms;
 
 }
 .puntuquis10 {
-  animation: parpadear 3.7s infinite backwards steps(11);
+  animation: parpadear 3.7s;
   animation-delay: 0.3ms;
 }
 .puntuquis11 {
-  animation: parpadear 4s infinite backwards steps(12);
+  animation: parpadear 4s;
   animation-delay: 0.3ms;
 }
 .puntuquis12 {
-  animation: parpadear 4.3s infinite backwards steps(13);
+  animation: parpadear 4.3s;
 
 }
 .puntuquis13 {
-  animation: parpadear 4.6s infinite backwards steps(14);
+  animation: parpadear 4.6s;
   animation-delay: 0.3ms;
 }
 .puntuquis14 {
-  animation: parpadear 4.9s infinite backwards steps(15);
+  animation: parpadear 4.9s;
   animation-delay: 0.3ms;
 }
 .puntuquis15 {
-  animation: parpadear 5.2s infinite backwards steps(16);
+  animation: parpadear 5.2s ;
   animation-delay: 0.3ms;
 }
 .puntuquis16 {
-  animation: parpadear 5.5s infinite backwards steps(17);
+  animation: parpadear 5.5s ;
   animation-delay: 0.3ms;
 }
 .puntuquis17 {
-  animation: parpadear 5.8s infinite backwards steps(18);
+  animation: parpadear 5.8s ;
   animation-delay: 0.3ms;
 }
 .puntuquis18 {
-  animation: parpadear 6.1s infinite backwards steps(19);
+  animation: parpadear 6.1s ;
   animation-delay: 0.3ms;
 }
 
