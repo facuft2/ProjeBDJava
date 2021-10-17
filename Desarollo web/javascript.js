@@ -37,6 +37,7 @@ console.log(rosco.children[index]);
 /**CUANDO APRETAS 'JUGA' TE MANDA AL ROSCO DIRECTAMENTE */
 function logear() {
   container.remove();
+  formulario.remove();
   princi.style.visibility = 'visible';
   
 }
@@ -53,7 +54,7 @@ function change() {
   formulario.style.visibility = 'visible';
   
 }
-/** ES UNA """ANIMACION""" CON EL TEXTO DEL FORMULARIO */
+/** ES UNA """ANIMACION""" CON EL TEXTO DEL FORMULARIO(Al darle click para escribir desplaza las letras hacia arriba y estas no bajan si hay algo escrito de lo contrario si, no pude alinear el texto) */
 function keyup() {
   if (this.value.length >= 1) {
     this.nextElementSibling.classList.add('focus');
@@ -94,7 +95,7 @@ var redi = document.getElementById('BtnBack')
 /** FORMULARIO DE LOGEO */
 var input = document.getElementsByClassName('FormInput');
 for (var r = 0; r < input.length; r++) {
-  input[i].addEventListener(keyup)
+  input[r].addEventListener(keyup)
 }
 /** FORMULARIO DE LOGEO */
 
