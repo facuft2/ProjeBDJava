@@ -12,11 +12,13 @@
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
     <link
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,100&display=swap"
       rel="stylesheet"
     />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
   </head>
   <body>
     <div id="container" class = "container">
@@ -65,12 +67,13 @@
     <button id="btonLogin" class="btnLogin" onclick="logear()">Juga</button>
 </div>
 <div id="formulario" class="formulario">
-    <h1 class ="FormRegister"> Registrate lindura </h1>
-    <input type="text" class="formInput">
-    <label for="" class="formLabel"> Nickname </label>
-    <input type="text" class="formInput">
+    <form onsubmit="back()">
+      <h1 class ="FormRegister"> Registrate lindura </h1>
+      <label for="" class="formLabel"> Nickname </label>
+      <input required type="text" class="formInput">
     <label for="" class="formLabel"> Password </label>
-    <input type="submit" id="btnBack" onclick="back()" class="formSubmit"> 
+    <input required type="text" class="formInput">
+    <button type="submit" id="btnBack" class="formSubmit"> </button>
   </form>
 </div>
 </div>
@@ -116,4 +119,5 @@
     
   </body>
   <script src="javascript.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" ></script>
 </html>
