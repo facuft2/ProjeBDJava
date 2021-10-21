@@ -40,7 +40,7 @@ body {
   left:  100px;
 }
 .formRegister {
-  font-family: 'Ephesis', cursive;;
+  font-family: 'Open sans', cursive;;
   text-align: center;
   margin-top: 0;
   color: #6800a5;
@@ -63,7 +63,7 @@ body {
   margin-top: -135px;
 }
 .formLabel {
-  font-family: 'Ephesis', cursive;;
+  font-family: 'Open sans', cursive;;
   padding-left: 35px;
   position: relative;
   margin-top: -20;
@@ -74,7 +74,7 @@ body {
 .formSubmit {
   min-width: 150px;
     min-height:40px;
-    font-family: 'Ephesis', cursive;;
+    font-family: 'Open sans', cursive;;
     background-color: transparent;
     letter-spacing: 4px;
     background: linear-gradient(to right, #f4f7f8 0, #eff3f5 25%, #ebf1f3 50%, #e9f1f5 75%, #f1fbff 100%);
@@ -127,7 +127,7 @@ body {
   .btnPasa{
     min-width: 150px;
     min-height:40px;
-    font-family: 'Ephesis', cursive;;
+    font-family: 'Open sans', cursive;;
     background-color: transparent;
     letter-spacing: 4px;
     background: linear-gradient(to right, #f4f7f8 0, #eff3f5 25%, #ebf1f3 50%, #e9f1f5 75%, #f1fbff 100%);
@@ -142,7 +142,7 @@ body {
   .btnVer{
     min-width: 150px;
     min-height:40px;
-    font-family: 'Ephesis', cursive;;
+    font-family: 'Open sans', cursive;;
     background-color: transparent;
     letter-spacing: 4px;
     background: linear-gradient(to right,#f4f7f8 0, #eff3f5 25%, #ebf1f3 50%, #e9f1f5 75%, #f1fbff 100%);
@@ -157,7 +157,7 @@ body {
   .inpPala{
     min-width: 150px;
     min-height:40px;
-    font-family: 'Ephesis', cursive;;
+    font-family: 'Open sans', cursive;;
     background-color: transparent;
     text-align: center;
     letter-spacing: 4px;
@@ -182,7 +182,7 @@ body {
 }
 /** Buttons */
 .neok {
-  font-family: 'Ephesis', cursive;;
+  font-family: 'Open sans', cursive;;
   margin: 5;
   font-size: 50px;
   text-shadow: 0 0 5px rgb(78, 4, 78), 0 0 15px rgb(78, 4, 78), 0 0 30px rgb(78, 4, 78), 0 0 50px rgb(78, 4, 78);
@@ -190,7 +190,7 @@ body {
 }
 
 .neok1 {
-  font-family: 'Ephesis', cursive;;
+  font-family: 'Open sans', cursive;;
   letter-spacing: 6px;
   margin: 0;
   font-size: 100px;
@@ -199,7 +199,7 @@ body {
 }
 
 .neok2 {
-  font-family: 'Ephesis', cursive;;
+  font-family: 'Open sans', cursive;;
   margin: 0;
   font-size: 20px;
   text-shadow: 0 0 5px rgb(78, 4, 78), 0 0 15px rgb(78, 4, 78), 0 0 30px rgb(78, 4, 78);

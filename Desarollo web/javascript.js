@@ -27,8 +27,6 @@ const words = [
   {letra: "z" , descripcion : "Tu hermana sin a " , respuesta: "hermana"},
 ];
 
-const rosco = document.getElementById('rosco');
-console.log(rosco);
 
 let index = 0;
 console.log(rosco.children[index]);
@@ -89,6 +87,9 @@ var princi = document.getElementById('princi');
 var container = document.getElementById('container');
 var register = document.getElementById('btnRegister')
 var redi = document.getElementById('BtnBack')
+var descripcion = document.getElementById('descripcion');
+var rosco = document.getElementById('rosco');
+console.log(rosco);
 /** COSAS PARA CAMBIAR de pagina */
 
 
