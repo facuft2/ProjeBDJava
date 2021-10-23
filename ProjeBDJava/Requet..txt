@@ -1,0 +1,13 @@
+-Rosco
+-Timer
+-Estructura
+-Lista
+-Jugar
+-arreglo de palabras y respuesta(correctas,incorrectas,no contestadas, pasapalabra)
+-enviar datos al dom (visibilida css)
+Dir[{
+    letra 
+    desc
+    respuesta
+    contiente
+}]  x2
