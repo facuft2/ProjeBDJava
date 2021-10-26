@@ -1,12 +1,17 @@
-/** COSAS PARA CAMBIAR de pagina */
+/** VARIABLES */
 var formulario = document.getElementById('formulario')
 var princi = document.getElementById('princi');
 var container = document.getElementById('container');
 var register = document.getElementById('btnRegister')
 var redi = document.getElementById('BtnBack')
-/** COSAS PARA CAMBIAR de pagina */
-
-
+let tiempode = 60;
+let tiempo;
+/** VARIABLES */
+/**DOM */
+const tiempoBox = document.getElementById('tiempo');
+const rosco1 = document.getElementById('rosco1');
+var input = document.getElementsByClassName('FormInput');
+/**DOM */
 const words = [
   {letra: "a" , descripcion : "Tu hermana sin a " , respuesta: "hermana"},
   {letra: "b" , descripcion : "Tu hermana " , respuesta: "hermana"},
@@ -43,10 +48,9 @@ const indicesta = {
 };
 
 const respuestar1 = [];
+const respuestar2 = [];
 
 
-
-const rosco1 = document.getElementById('rosco1');
 console.log(rosco1);
 
 let index = 0;
@@ -54,6 +58,7 @@ console.log(rosco1.children[index]);
 /** FUNCTIONS */
 
 
+  
 
 /**CUANDO APRETAS 'JUGA' TE MANDA AL ROSCO DIRECTAMENTE */
 function logear() {  
@@ -93,27 +98,49 @@ function skip() {
   rosco1.children[index].classList.toggle('letra--skip');
   respuestar1.push(2);
   index++;
+  document.getElementById("descripcion").innerHTML = words[index].descripcion;
+
 }
-/** VERIFICA SI TA BOM THE ASNWER */
+document.getElementById("descripcion").innerHTML = words[index].descripcion;
+
 function verificar() {
+  
   const inputEnviar = document.getElementById('inputEnviar').value;
   if (inputEnviar == words[index].respuesta) {
     rosco1.children[index].classList.toggle('letra--approve'); 
+    document.getElementById("descripcion").innerHTML = words[index].descripcion;
+
     respuestar1.push(1);
   }else{
     rosco1.children[index].classList.toggle('letra--fail');
+    document.getElementById("descripcion").innerHTML = words[index].descripcion;
+
     respuestar1.push(0);
     
   }
   index++;
 console.log(index);
 console.log(respuestar1);
+for(i=0;i++;i = respuestar1.length){
+if(respuestar1[i].classList.contains === 'letra--skip'){
+  console.log(i)
+}
+
+}
+
+
+}
+
+function contador(){
+
+
+
 }
 
 /** FUNCTIONS */
 
 /** FORMULARIO DE LOGEO */
-var input = document.getElementsByClassName('FormInput');
+
 for (var r = 0; r < input.length; r++) {
   input[i].addEventListener(keyup)
 }
