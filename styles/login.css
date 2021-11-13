@@ -1,0 +1,15 @@
+*{
+    overflow: hidden;
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    background-image: url(../../img/neonbackground.jpg);
+    background-size: cover no-repeat;
+    background-position: center; 
+    background-attachment: fixed;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.25rem;
+    font-weight: 900;
+  }
