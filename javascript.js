@@ -8,16 +8,18 @@ var redi = document.getElementById("BtnBack");
 const tiempoBox = document.getElementById("tiempo");
 const rosco1 = document.getElementById("rosco1");
 var input = document.getElementsByClassName("FormInput");
+
+
 /**DOM */
 const words = [
-  { letra: "a", descripcion: "In nostrud nulla aliqua enim pariatur exercitation aute nostrud minim id nisi labore.", respuesta: "hermana" },
-  { letra: "b", descripcion: "Tu hermana ", respuesta: "hermana" },
-  { letra: "c", descripcion: "Tu hermana sin a ", respuesta: "hermana" },
-  { letra: "d", descripcion: "Tu hermana ", respuesta: "hermana" },
-  { letra: "e", descripcion: "Tu hermana sin a ", respuesta: "hermana" },
-  { letra: "f", descripcion: "Tu hermana ", respuesta: "hermana" },
-  { letra: "g", descripcion: "Tu hermana sin a ", respuesta: "hermana" },
-  { letra: "h", descripcion: "Tu hermana ", respuesta: "hermana" },
+  { letra: "a", descripcion: "In nostrud nuaalla aliqua enim pariatur exercitation aute nostrud minim id nisi labore.", respuesta: "hermana" },
+  { letra: "b", descripcion: "Nulla commodo fugiat non veniam amet deserunt anim est occaecat magna. ", respuesta: "hermana" },
+  { letra: "c", descripcion: "Nisi sunt consequat consectetur aute dolor laborum. ", respuesta: "hermana" },
+  { letra: "d", descripcion: "Nulla anim sint fugiat labore et non incididunt excepteur nostrud occaecat proident aliqua duis.", respuesta: "hermana" },
+  { letra: "e", descripcion: "TEsse eiusmod cillum aute exercitation ipsum consectetur ex ut sint laborum enim ipsum.u hermana sin a ", respuesta: "hermana" },
+  { letra: "f", descripcion: "TCillum labore mollit in eu sint amet cupidatat magna ad est in consectetur.u hermana ", respuesta: "hermana" },
+  { letra: "g", descripcion: "Tu herUt est exercitation culpa minim velit aliqua magna dolore.mana sin a ", respuesta: "hermana" },
+  { letra: "h", descripcion: "Tu heEsse aliquip do minim sint laborum minim officia Lorem pariatur ex quis eu proident.rmana ", respuesta: "hermana" },
   { letra: "i", descripcion: "Tu hermana sin a ", respuesta: "hermana" },
   { letra: "j", descripcion: "Tu hermana ", respuesta: "hermana" },
   { letra: "k", descripcion: "Tu hermana sin a ", respuesta: "hermana" },
@@ -45,7 +47,6 @@ const indicesta = {
 };
 
 const respuestar1 = [];
-const respuestar2 = [];
 
 console.log(rosco1);
 
@@ -54,6 +55,21 @@ console.log(rosco1.children[index]);
 /** FUNCTIONS */
 
 
+//Sitema de login
+function login() {
+  var user = document.getElementById("inputuser").value;
+  var pass = document.getElementById("inputpass").value;
+  if (user == "admin" && pass == "admin") {
+    game();
+  } else {
+    alert("Usuario o contraseña incorrecta");
+  }
+}
+
+function game() {
+  window.location = "game.html";
+  contador();
+}
 
 /**EL PASAPALABRA */
 function skip() {
@@ -68,7 +84,7 @@ function skip() {
 
 function resetRosco() {
 if(index == 25){
-for(let i = 0; i < rosco1.children.length; i++){
+for(let i = 0; i < respuestar1.length; i++){
 if(respuestar1[i] == 2){
 rosco1.children[i].classList.toggle("letra--default");
 index = i;
@@ -119,24 +135,5 @@ setInterval(contador, 1000);
 
 /** FUNCTIONS */
 
-function gameend(){
-
-  const gameend = document.getElementById("princi");
-  gameend.classList.add("gameend");
-  gameend.innerHTML = `<h1>GAME OVER</h1>
-  <h2>Tu puntaje fue de: ${respuestar1.length}</h2>
-  <button class="btn" onclick="logear()">Jugar de nuevo</button>`;
-  document.body.appendChild(gameend);
-
-}
-function startgame() {
-  const start = document.getElementById("princi");
-  start.classList.add("start");
-  start.innerHTML = `<h1>PASAPALABRA</h1>
-  <h2>${dseconds}</h2>
-  <button class="btn" onclick="back()">Regresar</button>
-  <button class="btn" onclick="change()">Registrarse</button>`;
-  document.body.appendChild(start);
-}
 
 
