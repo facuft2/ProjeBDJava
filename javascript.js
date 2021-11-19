@@ -119,19 +119,45 @@ function verificar() {
 
 }
 
+let puntaje = 0;
+
+function puntajes() {
+
+  for(let index = 0; index < respuestar1.length; index++) {
+    if (respuestar1[index] == 1) {
+      puntaje++
+    }
+    
+  }
+  
+  console.log(puntaje);
+}
 
 //Contador
-let dseconds = 120;
+let dseconds = 10;
 function contador() {
   if (dseconds == 0) {
-    clearInterval(interval);
-    return gameend();
+    clearInterval(dseconds);
+  gameEnd()
   }
   dseconds--;
 
   document.getElementById("tiempo").innerHTML = dseconds;
 }
 setInterval(contador, 1000);
+
+
+function restartGame() {
+  window.location = "game.html";
+  return topTier
+
+}
+
+function gameEnd() {
+  puntajes();
+  document.getElementById('modal').style.display = "flex";
+  document.getElementById("modal-content").innerHTML = `"Tu puntaje fue de ${puntaje}";`
+}
 
 /** FUNCTIONS */
 
