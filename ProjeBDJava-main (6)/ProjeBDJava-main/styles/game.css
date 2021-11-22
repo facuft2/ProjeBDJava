@@ -78,6 +78,12 @@ body {
     margin-top: 10px;
   
   }
+  .btnPasa:hover{
+    background-color:rgba(255,255,255,1);
+    color:#222;
+    cursor:pointer;
+    transition: background-color 1000ms, color 1000ms;
+  }
   .btnVer{
     min-width: 150px;
     min-height:40px;
@@ -92,6 +98,12 @@ body {
     margin-bottom: 10px;
     margin-top: 10px;
   
+  }
+  .btnVer:hover{
+    background-color:rgba(255,255,255,1);
+    color:#222;
+    cursor:pointer;
+    transition: background-color 1000ms, color 1000ms;
   }
   .inpPala{
     
@@ -121,10 +133,18 @@ body {
 .btnPasapalabra{
   border : 2px solid #fff;
 }
+.btnPasapalabra:hover{
+  background-color:rgba(255,255,255,1);
+  color:#222;
+  cursor:pointer;
+  transition: background-color 1000ms, color 1000ms;
+}
+
 
 .btn-group{
   padding: 100px; 
   width: 100%;
+  
 }
 
 .counta{
@@ -450,6 +470,7 @@ body {
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   align-content: center;
   justify-content: center;
+  align-items: center;
 }
 
 .modal-text{
@@ -468,7 +489,7 @@ body {
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 50%; /* Could be more or less, depending on screen size */
 }
 
 
