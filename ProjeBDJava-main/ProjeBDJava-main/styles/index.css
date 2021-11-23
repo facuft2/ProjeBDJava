@@ -153,6 +153,23 @@ body {
       margin-top: 10px;
     }
 
+    .btonTop{
+      cursor: pointer;
+      min-width: 150px;
+        min-height:40px;
+        font-family: 'Balsamiq Sans', cursive;
+        background-color: transparent;
+        letter-spacing: 4px;
+        background: linear-gradient(to right,white 0, white 25%, white 50%, white 75%, white 100%);
+        -webkit-background-clip: text;
+        color: transparent;
+        border: 2px solid white;
+        -webkit-transition: all .5s ease;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    
+    }
+
 
     .neok {
         font-family: 'Architects Daughter', cursive;

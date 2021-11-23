@@ -134,17 +134,19 @@ function puntajes() {
 }
 
 //Contador
-let dseconds = 10;
-function contador() {
-  if (dseconds == 0) {
-    clearInterval(dseconds);
-  gameEnd()
+let dseconds = 5;
+count = setInterval(function () {
+  if (dseconds != 0) {
+    dseconds--
+    document.getElementById("tiempo").innerHTML = dseconds;
+  } else {
+    clearInterval(count)
+    gameEnd()
   }
-  dseconds--;
+},1000)
 
-  document.getElementById("tiempo").innerHTML = dseconds;
-}
-setInterval(contador, 1000);
+
+
 
 
 function restartGame() {
@@ -156,8 +158,9 @@ function restartGame() {
 function gameEnd() {
   puntajes();
   document.getElementById('modal').style.display = "flex";
-  document.getElementById("modal-content").innerHTML = `"Tu puntaje fue de ${puntaje}";`
+  document.getElementById("modal-content").innerHTML = `Tu puntaje fue de ${puntaje}`
 }
+
 
 /** FUNCTIONS */
 
